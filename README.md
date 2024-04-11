@@ -1,7 +1,9 @@
 **First 16 bit real mode console that have normal I/O**
 ---
 *How to debug*
-
+1. Run debug.sh
+2. Open gdb and type command `target remote localhost:1234`
+3. Set breakpoint at `0x7c00` and continue to debug
 ---
 * Clrscr:
   + Clear the screen and move the pointer to the upper left corner of the console window

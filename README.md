@@ -2,9 +2,7 @@
 ---
 
 *How to debug*
-1. Run debug.sh
-2. Open gdb and type command `target remote localhost:1234` (recommend using pwndbg because it currently support 16 bit real mode debug, gef have to setup before in use)
-3. Set breakpoint at `0x7c00` and continue to debug
+Just simply run debug.sh, it will auto open gdb in 16 bit real mode
 ---
 
 * Clrscr:

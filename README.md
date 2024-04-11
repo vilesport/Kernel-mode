@@ -1,26 +1,28 @@
 **First 16 bit real mode console that have normal I/O**
 ---
+*How to debug*
 
+---
 * Clrscr:
   + Clear the screen and move the pointer to the upper left corner of the console window
 
 * Put_char:
-  + Print the character have ascii code storage in 'bl' to console
+  + Print the character have ascii code storage in `bl` to console
 
 * Print:
-  + Print the string storage at address 'di' to console
+  + Print the string storage at address `di` to console
 
 * Read_char:
-  + Read a character from user input and save to 'al'
+  + Read a character from user input and save to `al`
 
 * Read:
-  + Read user input until 'Enter' and write the result to buffer with maximum 100 bytes length
+  + Read user input until `Enter` and write the result to buffer with maximum 100 bytes length
 
 * Write_char
-  + Write character save in 'bl' to address di
+  + Write character save in `bl` to address di
 
 * End_line:
-  + Replace the current address in 'di' with null bytes and then end line console to new line
+  + Replace the current address in `di` with null bytes and then end line console to new line
 
 * End_func:
   + End the current function

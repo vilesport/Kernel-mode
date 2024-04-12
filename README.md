@@ -2,6 +2,7 @@
 ---
 
 *How to debug*
+
 Just simply run debug.sh, it will auto open gdb in 16 bit real mode
 ---
 

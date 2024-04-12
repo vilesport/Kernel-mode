@@ -1,7 +1,8 @@
 **First 16 bit real mode console that have normal I/O**
 ---
 *How to debug*
-`Just simply run debug.sh, it will auto open gdb in 16 bit real mode`
+
+Just simply run debug.sh, it will auto open gdb in 16 bit real mode
 
 ---
 * Clrscr:

@@ -2,7 +2,9 @@
 ---
 *How to debug*
 
-Just simply run debug.sh, it will auto open gdb in 16 bit real mode
+Have 2 terminal in the current directory
+1 run debug.sh
+1 run `gdb -nx -x realmode` and debug
 
 ---
 * Clrscr:

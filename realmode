@@ -466,11 +466,4 @@ define step_until_code
   context
 end
 
-# Added for 0asm.
-# Attach to QEMU.
-target remote 0:1234
-# Use 16-bit architecture.
-set tdesc filename gdb-16bit.xml
-# Break on entry.
-break *0x7c00
-continue
+set tdesc filename ~/target.xml

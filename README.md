@@ -3,8 +3,8 @@
 *How to debug*
 
 Have 2 terminal in the current directory
-1 run debug.sh
-1 run `gdb -nx -x realmode` and debug
++ 1 run debug.sh
++ 1 run `gdb -nx -x realmode` and debug
 
 ---
 * Clrscr:
